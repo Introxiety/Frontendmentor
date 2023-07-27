@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; */
+    border: 5px solid red;
+    /* width: 100px; */
+    margin: 0 auto;
+}
+
+.container{
+    display: flex;
+
+}
+
+.container-grp{
+    width: 15em;
+    padding: 1.5em;
+}
+
+.container-result{
+    background-image: linear-gradient(to bottom,#6743ff,#312cea);
+    text-align: center;
+}
+
