@@ -11,6 +11,8 @@ body{
     align-items: center;
     height: 100vh;
     flex-direction: column;
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-size: 18px;
 }
 
 main{
@@ -18,23 +20,73 @@ main{
     justify-content: center;
     align-items: center;
     /* height: 100vh; */
-    border: 5px solid red;
+    
     /* width: 100px; */
     margin: 0 auto;
 }
 
 .container{
     display: flex;
-
+    justify-content: center;
 }
 
 .container-grp{
-    width: 15em;
-    padding: 1.5em;
+    text-align: center;
+    width: 368px;
+    height: 512px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header-result{
+    margin-top: 1.5em;
 }
 
 .container-result{
-    background-image: linear-gradient(to bottom,#6743ff,#312cea);
+    background-image: linear-gradient(to bottom,hsl(252, 100%, 67%),hsl(241, 81%, 54%));
     text-align: center;
+    border-radius: 2em;
 }
 
+.container-result h1{
+    font-size: 18px;
+    color: hsl(241, 100%, 89%);
+    margin-bottom: 1.5em;
+}
+
+.container-result .container-round{
+    background-image:linear-gradient(to bottom,hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0)) ;
+    align-self: center;
+    width: 10em;
+    height: 10em;
+    margin: 0 auto;
+    border-radius: 50%;
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 2em;
+}
+
+.container-result p {
+    color: hsl(241, 100%, 89%);
+    font-size: 15px;
+}
+
+.container-result p span{
+    font-size: 50px;
+    display: block;
+    color: white;
+    font-weight: 700;
+}
+
+.container-result h1:nth-of-type(2){
+    font-size: 25px;
+    color: white;
+}
+
+.container-result p:nth-of-type(2){
+    margin: 0 5em;
+    font-size: 15px;
+}
